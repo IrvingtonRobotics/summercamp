@@ -16,6 +16,6 @@
 }
 .is-arduhero {
     /*background-color: rgb(23, 29, 46) !important;*/
-    background: url('img/circuit.jpg');
+    background: url('../img/circuit.jpg');
     background-repeat: repeat;
 }
