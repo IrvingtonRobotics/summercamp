@@ -7,10 +7,15 @@
     color: white;
     outline: none;
 }
+.navbar {
+	border: none;
+	box-shadow: none;
+}
 #volbtn {
     font-weight: 500;
 }
-.is-vrchero {
-    background: url('../img/vex_worlds.jpg');
-    background-size: cover;
+.is-arduhero {
+    /*background-color: rgb(23, 29, 46) !important;*/
+    background: url('/img/circuit.jpg');
+    background-repeat: repeat;
 }

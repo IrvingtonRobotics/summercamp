@@ -1,110 +1,356 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Irvington VEX Robotics Competition</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
-    <link rel="stylesheet" href="css/index.css">
-</head>
-
-<body>
-    <section class="hero is-large is-dark is-vrchero">
-        <div class="nav-header">
-            <nav class="navbar is-transparent is-branded" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="#">
-                        <img src="img/logo-white.svg" style="height: 12.09px">
-                    </a>
-
-                    <button class="button navbar-burger" id="mainburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-                <div class="navbar-menu" id="mainmenu">
-                    <div class="navbar-end">
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+                <title>
+                    Arduino Robotics Camp by Irvington Robotics
+                </title>
+                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+                    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css" rel="stylesheet">
+                        <link href="css/index.css" rel="stylesheet">
+                        </link>
+                    </link>
+                </link>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <section class="hero is-medium is-dark is-arduhero">
+            <div class="nav-header">
+                <nav aria-label="main navigation" class="navbar is-transparent is-branded" role="navigation">
+                    <div class="navbar-brand">
                         <a class="navbar-item" href="#">
-                            <strong>Home</strong>
+                            <img src="img/logo-white.svg" style="height: 12.09px">
+                            </img>
                         </a>
-                        <a class="navbar-item" href="event-updates">
-                            Event Updates
-                        </a>
-                        <a class="navbar-item" href="volunteer/form">
-                            Volunteer
-                        </a>
-                         <a class="navbar-item" href="register">
-                            RobotEvents Page
-                        </a>
+                        <button class="button navbar-burger" id="mainburger">
+                            <span>
+                            </span>
+                            <span>
+                            </span>
+                            <span>
+                            </span>
+                        </button>
                     </div>
-            </nav>
+                    <div class="navbar-menu" id="mainmenu">
+                        <div class="navbar-end">
+                            <a class="navbar-item" href="#">
+                                <strong>
+                                    Home
+                                </strong>
+                            </a>
+                            <a class="navbar-item" href="#register">
+                                Register
+                            </a>
+                        </div>
+                    </div>
+                </nav>
             </div>
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <img src="img/logo-white.svg" class="is-hidden-mobile" width="70%">
-                    <h2 class="subtitle">Begin the journey to the world championship at the first ever Irvington VEX Robotics Competition.</h2>
-                    <a class="button is-info is-medium" href="volunteer/form" id="volbtn">
-                        <span>Volunteer</span>
-                    </a>
-                    <a class="button is-info is-medium" href="event-updates" id="volbtn">
-                        <span>Event Updates</span>
-                    </a>
-                    <h2 class="subtitle">
-                        <span class="tag is-link">
-                            Registration deadline extended to January 16th
-                        </span>
-                    </h2>
+                    <img class="is-hidden-mobile" src="img/logo-white.svg" width="70%">
+                        <h2 class="subtitle">
+                            Build, program, and take home your very own automatic obstacle-avoiding remote control robot!
+                        </h2>
+                        <h2 class="subtitle">
+                            <strong>
+                                July 16 to 26 • Monday-Thursday • 9:00AM-4:00PM
+                            </strong>
+                        </h2>
+                        <h2 class="subtitle">
+                            <strong>
+                                Nurture Kids Warm Springs • 46517 Mission Blvd, Fremont, CA 94539
+                            </strong>
+                        </h2>
+                        <h2 class="subtitle">
+                            <strong>
+                                5th to 10th Grade Students • Class size of 20 • Register by July 11th
+                            </strong>
+                        </h2>
+                        <a class="button is-link is-medium" href="#register" id="volbtn">
+                            <span>
+                                Register Now
+                            </span>
+                        </a>
+                        <h2 class="subtitle">
+                            <strong>
+                                Limited spots remain, register now!
+                            </strong>
+                        </h2>
+                    </img>
                 </div>
                 <div class="container has-text-centered is-hidden-mobile">
-                    <br>
+                    <br/>
                     <img src="img/presentedby_ihs_v2.svg" width="15%">
+                    </img>
                 </div>
             </div>
-    </section>
-    <section class="section has-text-centered">
+        </section>
+    </body>
+</html>
+<section class="section has-text-centered has-text-black">
+    <nav class="level">
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">
+                    Student-To-Teacher Ratio
+                </p>
+                <p class="title">
+                    5:1
+                </p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">
+                    Max Class Size
+                </p>
+                <p class="title">
+                    20
+                </p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">
+                    Register by
+                </p>
+                <p class="title">
+                    July 11th
+                </p>
+            </div>
+        </div>
+    </nav>
+</section>
+<section class="section has-text-centered is-branded">
+    <div class="container has-text-white">
+        <div class="columns">
+            <div class="column">
+                <h1 class="title has-text-white">
+                    Topics Covered
+                </h1>
+                <div>
+                    <ul>
+                        <li>
+                            Arduino Microcontroller Programming
+                        </li>
+                        <li>
+                            C Programming
+                        </li>
+                        <li>
+                            Programming Logic and Control Flow
+                        </li>
+                        <li>
+                            Circuitry and Energy Distribution/Calculation
+                        </li>
+                        <li>
+                            External Sensor Integration with Arduino
+                        </li>
+                        <li>
+                            Reading and Drawing Schematic Diagrams
+                        </li>
+                        <li>
+                            Intro to Mechanical and Structural Engineering
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+                <h1 class="title has-text-white">
+                    Equipment Used
+                </h1>
+                <div>
+                    <ul>
+                        <li>
+                            ULN2003 Stepper Motor Driver Board
+                        </li>
+                        <li>
+                            HC-SR04 Ultrasonic Sensor
+                        </li>
+                        <li>
+                            Arduino Uno R3 Microcontroller
+                        </li>
+                        <li>
+                            LED 1602 Display Module
+                        </li>
+                        <li>
+                            L293D Motor Driver Shield
+                        </li>
+                        <li>
+                            ...and many more sensors/boards!
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section has-text-centered is-branded has-text-white">
+    <div class="container">
+        <h1 class="title has-text-white">
+            About the Instructors
+        </h1>
+        <p class="has-text-justified">
+            The camp is taught by VEX Robotics Team Leaders from Irvington Robotics Academy, who have developed a new and engaging curriculum to build fundamental STEAM skills within the robotics competitors of the next generation. Learn more about Irvington Robotics Academy
+            <a href="//blog.irvingtonrobotics.org">
+                on our blog
+            </a>
+            .
+        </p>
+        <br/>
+        <img src="/img/flyer.jpg" width="300">
+        </img>
+    </div>
+</section>
+<section class="section has-text-centered">
+    <div class="container">
+        <h1 class="title">
+            Tuition Structure
+        </h1>
+        <h2 class="subtitle">
+            Email
+            <code>
+                camp@irvingtonrobotics.org
+            </code>
+            if you have any questions.
+        </h2>
+        <table class="table is-fullwidth is-striped is-hoverable">
+            <tr>
+                <th>
+                    Camp Tuition
+                </th>
+                <td>
+                    $556.02
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Kit Cost
+                </th>
+                <td>
+                    $63.98
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Lunch (optional)
+                </th>
+                <td>
+                    $6 per day of camp
+                </td>
+            </tr>
+            <tr class="is-selected has-background-info">
+                <th>
+                    Total Tuition
+                </th>
+                <th>
+                    $620.00 or $668.00 with lunch
+                </th>
+            </tr>
+        </table>
+    </div>
+</section>
+<hr>
+    <section class="section">
+        <a name="register">
+        </a>
         <div class="container">
-            <h1 class="title">What is the VEX Robotics Competition?</h1>
-            <p class="has-text-justified">
-                The
-                <strong>VEX Robotics Competition</strong>, presented by the
-                <strong>Robotics Education &amp; Competition Foundation</strong>, is the largest and
-                <strong>fastest growing middle school and high school robotics program globally</strong>
-                with more than
-                <strong>18,000 teams</strong> from 40 countries playing in over 1,350 competitions worldwide. Each year, an exciting
-                engineering challenge is presented in the form of a game. Students, with guidance from their teachers and
-                mentors, build
-                <strong>innovative robots and compete year-round</strong>.
+            <h1 class="title has-text-centered">
+                Registration Steps
+            </h1>
+            <h2 class="subtitle has-text-centered">
+                Need help? Contact us at
+                <code>
+                    camp@irvingtonrobotics.org
+                </code>
+                or call
+                <a href="tel:5107095452">
+                    (510) 709-5452
+                </a>
+                .
+            </h2>
+        </div>
+        <br/>
+        <div class="container">
+            <h2 class="title is-4">
+                Step 1: Fill Out Student Information Form
+            </h2>
+            <p>
+                Fill out
+                <a href="https://goo.gl/forms/E4AuH4i7Q7aW3Eb32">
+                    this form
+                </a>
+                .
+            </p>
+        </div>
+        <br/>
+        <div class="container">
+            <h2 class="title is-4">
+                Step 2: Fill Out Nurture Kids Registration Packet
+            </h2>
+            <p>
+                Fill out
+                <a href="https://drive.google.com/file/d/1hgum5CfsaiVwIbIBpPBbUb4Kc1gRaOHn/view?usp=sharing">
+                    this registration packet
+                </a>
+                .
+            </p>
+            <p>
+                The completed and signed physical packet may be dropped off at
+                <a href="https://goo.gl/maps/SXCVYp46S9S2">
+                    46517 Mission Blvd, Fremont, CA 94539
+                </a>
+                <strong>
+                    or
+                </strong>
+                you may email the completed and signed packet to
+                <code>
+                    camp@irvingtonrobotics.org
+                </code>
+                .
+            </p>
+        </div>
+        <br/>
+        <div class="container">
+            <h2 class="title is-4">
+                Step 3: Submit Tuition
+            </h2>
+            <p>
+                Submit a check payable to
+                <strong>
+                    VipArya Inc.
+                </strong>
+                to
+                <a href="https://goo.gl/maps/SXCVYp46S9S2">
+                    Nurture Kids Warm Springs
+                </a>
+                by July 11th.
+            </p>
+            <p>
+                The camp is $620.00 without lunch and $668.00 with lunch.
             </p>
         </div>
     </section>
-    <section class="section has-text-centered">
-        <div class="container">
-            <h1 class="title">What is this year's game?</h1>
-            <div class="columns">
-                <div class="column">
-                    <p class="has-text-justified">
-                        <em>VEX Robotics Competition In the Zone</em> is played on a 12’x12’ square field. Two alliances &mdash;
-                        one "red" and one "blue" &mdash; composed of two teams each, compete in matches consisting of a fifteen
-                        second autonomous period followed by one minute and forty-five seconds of driver-controlled play.
-                        The object of the game is to attain a higher score than the opposing Alliance by
-                        <em>Stacking Cones on Goals</em>, by
-                        <em>Scoring Mobile Goals in Goal Zones</em>, by having the
-                        <em>Highest Stacks</em>, and by
-                        <em>Parking Robots</em>.
-                    </p>
-                </div>
-                <div class="column content">
-                    <iframe width="100%" height="250px" src="https://www.youtube.com/embed/1Yo_mlR1VJU?rel=0" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
+    <br/>
+    <footer class="footer is-branded has-text-white">
+        <div class="content has-text-centered">
+            <h5 class="has-text-white">
+                Student Confidentiality
+            </h5>
+            <p>
+                All information, such as student names, addresses, emails, and etc., collected by Irvington Robotics through this website, its constituent links, or in-person will be kept completely confidential unless written consent by a parent or legal guardian is provided.
+            </p>
+            <p>
+                © 2018 Irvington Robotics Academy.
+            </p>
         </div>
-    </section>
-    <script src="js/index.js"></script>
+    </footer>
+    <script src="js/index.js">
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112372838-1"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112372838-1">
+    </script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -112,7 +358,4 @@
 
         gtag('config', 'UA-112372838-1');
     </script>
-
-</body>
-
-</html>
+</hr>
