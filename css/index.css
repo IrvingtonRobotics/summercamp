@@ -1,24 +1,29 @@
 .is-branded {
     background: rgb(23, 29, 46);
 }
+
 .navbar-burger {
     background: transparent;
     border: none;
     color: white;
     outline: none;
 }
+
 .navbar {
 	border: none;
 	box-shadow: none;
 }
+
 #volbtn {
     font-weight: 500;
 }
+
 .is-arduhero {
     /*background-color: rgb(23, 29, 46) !important;*/
     background: url('../img/circuit.jpg');
     background-repeat: repeat;
 }
+
 .image.is-hcentered {
   margin: auto;
 }
