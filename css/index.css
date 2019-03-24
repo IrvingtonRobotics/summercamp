@@ -19,3 +19,6 @@
     background: url('../img/circuit.jpg');
     background-repeat: repeat;
 }
+.image.is-hcentered {
+  margin: auto;
+}
