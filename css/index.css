@@ -20,8 +20,18 @@
 
 .is-arduhero {
     /*background-color: rgb(23, 29, 46) !important;*/
-    background: url('../img/circuit.jpg');
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('../img/circuit.jpg');
     background-repeat: repeat;
+    text-shadow: 0px 1px 10px black;
+}
+
+.has-no-textshadow {
+  text-shadow: none;
 }
 
 .image.is-hcentered {
