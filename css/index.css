@@ -61,3 +61,7 @@
   position: absolute;
   transform: translate(-100%, -50%);
 }
+
+.img-enlargeable {
+	cursor: zoom-in;
+}
