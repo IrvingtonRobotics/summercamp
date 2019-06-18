@@ -1,0 +1,23 @@
+{
+  "name": "summercamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sergey --output=docs",
+    "dev": "sergey --watch --output=docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrvingtonRobotics/summercamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/IrvingtonRobotics/summercamp/issues"
+  },
+  "homepage": "https://github.com/IrvingtonRobotics/summercamp#readme",
+  "dependencies": {
+    "sergey": "0.0.7"
+  }
+}

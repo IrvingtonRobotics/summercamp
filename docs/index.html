@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>
+		Arduino Robotics Camp by Irvington Robotics
+	</title>
+	<meta property="og:title" content="Arduino Robotics Camp by Irvington Robotics" />
+	<meta property="og:type" content="website" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<link href="css/index.css" rel="stylesheet">
+	</link>
+	</link>
+	</link>
+	</meta>
+	</meta>
+</head>
+
+<body>
+	<section class="hero is-medium is-dark is-arduhero">
+		<div class="nav-header">
+			<nav aria-label="main navigation" class="navbar is-transparent is-branded" role="navigation">
+				<div class="navbar-brand">
+					<a class="navbar-item" href="#">
+						<img src="img/logo-white.svg" style="height: 12.09px" />
+					</a>
+				</div>
+				<div class="navbar-menu" id="mainmenu">
+					<div class="navbar-end">
+						<a class="navbar-item" href="#">
+							<strong>
+								Home
+							</strong>
+						</a>
+						<a class="navbar-item" href="#register">
+							Register
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="hero-body">
+			<div class="columns is-desktop is-vcentered">
+				<div class="column">
+					<div class="has-text-centered">
+						<img class="is-hidden-mobile" src="img/logo-white.svg" width="70%" />
+						<h2 class="subtitle">
+							Build, program, 3D-model, and take home your very own automatic obstacle-avoiding, object-tracking
+							smartcar!
+						</h2>
+						<h2 class="subtitle">
+							<strong>
+								July 15 to July 26 • Monday-Friday • Register by July 9th
+							</strong>
+						</h2>
+						<h2 class="subtitle">
+							<strong>
+								Nurture Kids Warm Springs • 46517 Mission Blvd, Fremont, CA 94539
+							</strong>
+						</h2>
+						<h2 class="subtitle">
+							<strong>
+								7-13 years old • 3:1 student-teacher ratio • Limited spots available
+							</strong>
+						</h2>
+						<a class="button is-link is-large has-no-textshadow" href="#register" id="volbtn">
+							<span>
+								Register Now
+							</span>
+						</a>
+						<br>
+						<br>
+						<div style="max-width: 800px; margin: 0 auto;">
+							<article class="message is-info has-no-textshadow is-relative-root">
+								<div class="message-header">
+									<p>Info: Expansion</p>
+								</div>
+								<div class="message-body">
+									Our Nurture Kids AM session is full. If you were planning on joining our AM session,
+									please contact us at <code>camp@irvingtonrobotics.org</code>, and we will see if we are able to make
+									accommodations.
+									<br/>
+									<br/>
+									Due to growing demand, we are partnering with Warm Springs Genius Kids to host a second summer camp in late
+									July/August.
+									If you are interested in attending our summer camp at Warm Springs Genius Kids, please fill out
+									<strong><a
+											href="https://docs.google.com/forms/d/e/1FAIpQLScxV-VXymFFife2kt-7wyo42yYndOD0Si4KWvBQNk5erphwTg/viewform">
+											this student interest form</a></strong>.
+									The dates, pricing, and other details will be released shortly.
+								</div>
+								<div class="corner-icon is-top-right is-hidden-mobile">
+									<img src="img/genius-kids.png" width=100 class="image-pop">
+								</div>
+							</article>
+						</div>
+						<br>
+					</div>
+					<div class="has-text-centered is-hidden-mobile">
+						<br />
+						<img src="img/presentedby_ihs_v2.svg" width="15%" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section has-text-centered has-text-black">
+		<nav class="level">
+			<div class="level-item has-text-centered">
+				<div>
+					<p class="heading">
+						Student-To-Teacher Ratio
+					</p>
+					<p class="title">
+						3:1
+					</p>
+				</div>
+			</div>
+			<div class="level-item has-text-centered">
+				<div>
+					<p class="heading">
+						Max Session Size
+					</p>
+					<p class="title">
+						15
+					</p>
+				</div>
+			</div>
+			<div class="level-item has-text-centered">
+				<div>
+					<p class="heading">
+						Register by
+					</p>
+					<p class="title">
+						July 9th
+					</p>
+				</div>
+			</div>
+		</nav>
+	</section>
+	<section class="section has-text-centered is-branded">
+		<div class="container has-text-white">
+			<div class="columns is-vcentered">
+				<div class="column">
+					<img data-enlargeable src="img/flyer.jpg" width="500" />
+				</div>
+				<div class="column">
+					<h1 class="title has-text-white">
+						Camp Curriculum
+					</h1>
+					<div>
+						<ul>
+							<li>
+								C Programming
+							</li>
+							<li>
+								Circuit Design
+							</li>
+							<li>
+								Arduino Microcontroller Programming
+							</li>
+							<li>
+								Programming Logic and Control Flow
+							</li>
+							<li>
+								Circuitry and Energy Distribution/Calculation
+							</li>
+							<li>
+								External Sensor Integration with Arduino
+							</li>
+							<li>
+								Reading and Drawing Schematic Diagrams
+							</li>
+							<li>
+								Mechanical and Structural Design
+							</li>
+							<li>
+								3D Design with Autodesk and Tinkercad Software
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section has-text-centered is-branded">
+		<div class="container has-text-white">
+			<h1 class="title has-text-white">
+				Equipment Used
+			</h1>
+			<img data-enlargeable src="img/equipment.jpg" width="300">
+			<br><br>
+			<div class="columns">
+				<div class="column">
+					<h2 class="subtitle">
+						<strong class="has-text-white">Robot Chassis</strong>
+					</h2>
+					<ul>
+						<li>2 x Gear Motor (1:48 torque gear ratio)</li>
+						<li>2 x High-quality Car Wheel</li>
+						<li>1 x Smart Car Chassis</li>
+						<li>2 x Pan-Tilt Boards</li>
+						<li>4 x Motor Fixing Bracket</li>
+						<li>2 x 14500 Lithium-Ion Batteries</li>
+						<li>1 x Hardware Set (screws, etc.)</li>
+						<li>1 x SG90 Servo</li>
+						<li>1 x Universal Wheel</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 class="subtitle">
+						<strong class="has-text-white">Microcontroller/Sensor Equipment</strong>
+					</h2>
+					<ul>
+						<li>1 x Arduino Uno R3</li>
+						<li>3 x 15 Pixel LED Board</li>
+						<li>1 x Ultrasonic Sensor (HC-SR04 Ultrasonic Sensor)</li>
+						<li>1 x Flame Sensor</li>
+						<li>2 x Photoresistor & Thermistor</li>
+						<li>3 x Potentiometer</li>
+						<li>1 x LCD1602</li>
+						<li>1 x Mini Remote Control</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 class="subtitle">
+						<strong class="has-text-white">Circuit Equipment</strong>
+					</h2>
+					<ul>
+						<li>2 x Active Buzzer</li>
+						<li>20 x Resistors</li>
+						<li>4 x Buttons</li>
+						<li>2 x Mini Breadboards</li>
+						<li>1 x Battery Box</li>
+						<li>1 x Charger</li>
+						<li>1 x Mini Component Box</li>
+						<li>1 x 830-Hole Large Breadboard</li>
+						<li>2 X AA Batteries</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section has-text-centered is-branded has-text-white">
+		<div class="container">
+			<h1 class="title has-text-white">
+				About the Instructors
+			</h1>
+			<p class="has-text-justified">
+				This camp is taught by VEX Robotics Team captains of the nationally appraised Irvington Robotics Academy. These
+				leaders are skilled in numerous aspects of robotics through the creation of internationally recognized
+				robotics projects,
+				coaching and mentoring younger students through all steps of the robotics design process, and spending countless
+				hours themselves building, modeling, programming, and competing at tournaments with teams from around the
+				world.
+			</p>
+			<br>
+			<div class="columns is-vcentered">
+				<div class="column">
+					<img src="img/iowa.jpg">
+				</div>
+				<div class="column">
+					<img src="img/bs-cnc.jpg">
+				</div>
+			</div>
+			<section>
+				<h4 class="title is-4 has-text-white">
+					Ansh Verma
+				</h4>
+				<div class="columns">
+					<figure class="column is-narrow">
+						<p class="image is-128x128 is-hcentered">
+							<img class="is-rounded" src="img/bios/ansh.jpg">
+						</p>
+					</figure>
+					<div class="column">
+						<div class="content has-text-justified">
+							<p>
+								Hi! I am a rising senior at Irvington High School, and head of this summer camp. Technology is influencing the
+								world in amazing ways, and I want to get the next generation involved in this process. As a Taekwondo
+								and tennis instructor, I have been helping students reach their physical and mental potential for four
+								years. As a seasoned instructor, I wish to combine my teaching experience with my technological
+								knowledge, and help students in this summer camp learn more about robotics, programming, and 3D design.
+								Through doing/learning from data-analysis programming at a UCSF research lab, and spending countless
+								hours designing/building to compete in national robotics competitions using Arduino, and VEX
+								hardware/software, I have ample information to teach!
+							</p>
+						</div>
+					</div>
+				</div>
+				<h4 class="title is-4 has-text-white">
+					Sandesh Shrestha
+				</h4>
+				<div class="columns">
+					<figure class="column is-narrow">
+						<p class="image is-128x128 is-hcentered">
+							<img class="is-rounded" src="img/bios/sandesh.jpg">
+						</p>
+					</figure>
+					<div class="column">
+						<div class="content has-text-justified">
+							<p>
+								Hi, I am an upcoming senior at Irvington High School. Through several years of developing and teaching successful
+								coding and robotics projects, I have become professionally fluent in Arduino, Raspberry Pi, and Python.
+								Additionally, in an effort to spread my passion for robotics, I founded an international teaching
+								program that brought the LEGO Mindstorms framework to developing schools. I have become competent in
+								using Linux, Java, and Computer-Aided-Design (CAD) through Autodesk Inventor. Additionally, I have ample
+								website design experience in HTML and CSS. Through this summer camp, I want to combine the vast
+								technological knowledge I have with my experience teaching robotics and managing teaching programs to
+								help students get interested in technology at a young age! Hobbies include playing guitar, violin, &
+								piano,
+								playing PC games, building custom PCs, and drinking milk tea.
+							</p>
+						</div>
+					</div>
+				</div>
+				<h4 class="title is-4 has-text-white">
+					Patrick Ding
+				</h4>
+				<div class="columns">
+					<figure class="column is-narrow">
+						<p class="image is-128x128 is-hcentered">
+							<img class="is-rounded" src="img/bios/patrick.jpg">
+						</p>
+					</figure>
+					<div class="column">
+						<div class="content has-text-justified">
+							<p>
+								Hi! I am an upcoming senior at Irvington High School. I have a lot of
+								experience with Arduino and C programming, having made many small projects and taken summer programs on
+								these topics myself. I plan to use the experiences I had as a student to make this year's Irvington
+								summer camp better than the programs I took. I am also adept at using Autodesk Inventor, an industry
+								standard Computer Aided Design (CAD) software, as I have taken Engineering Design courses and worked
+								with it in my own free time. Through robotics, I have gained experience working with electronics as
+								well.
+							</p>
+						</div>
+					</div>
+				</div>
+				<h4 class="title is-4 has-text-white">
+					Shrijani Vemulapally
+				</h4>
+				<div class="columns">
+					<figure class="column is-narrow">
+						<p class="image is-128x128 is-hcentered">
+							<img class="is-rounded" src="img/bios/shrijani.jpg">
+						</p>
+					</figure>
+					<div class="column">
+						<div class="content has-text-justified">
+							<p>
+								Hi, I am a rising Junior at Irvington High School. I have been involved in robotics
+								for 3 years now. I did one year of Lego robotics and two years of VEX robotics. Additionally,
+								I made two mobile applications using app inventor and participated in International Competitions.
+								At the same time, I am also fluent in Java,and Robot C. The main reason I chose to do robotics is
+								because it is an application of all three types of engineering, software, mechanical, and
+								electronics, and through this summer camp I would like to give young kids a chance to experience
+								all the three types of engineering meshed into one discipline.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+	<section class="section has-text-centered">
+		<a name="details">
+		</a>
+		<div class="container">
+			<h1 class="title">
+				Schedule
+			</h1>
+			<h2 class="subtitle">
+				Email <code>camp@irvingtonrobotics.org</code> if you have any questions.
+			</h2>
+			<div class="columns">
+				<div class="column is-5">
+					<h3 class="title is-4"> Nurture Kids <h3>
+					<table class="table is-hcentered is-striped is-hoverable is-bordered">
+						<tr>
+							<th> Session 1 </th>
+							<th> Session 2 </th>
+						</tr>
+						<tr>
+							<td class="is-danger">	9:00AM to 1:00PM	</td>
+							<td class="is-warning">	2:00PM to 5:00PM	</td>
+						</tr>
+					</table>
+				</div>
+				<div class="column is-5 is-offset-2">
+					<h3 class="title is-4"> Warm Springs Genius Kids <h3>
+					<table class="table is-hcentered is-striped is-hoverable is-bordered">
+						<tr>
+							<th> Session 1 </th>
+							<th> Session 2 </th>
+						</tr>
+						<tr>
+							<td class="is-success">	9:00AM to 1:00PM	</td>
+							<td class="is-success">	2:00PM to 5:00PM	</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<table class="table is-hcentered is-striped is-bordered">
+				<tr>
+					<th> Key: </th>
+					<td class="is-success"> Empty </td>
+					<td class="is-warning"> Filling up </td>
+					<td class="is-danger"> Full </td>
+				</tr>
+			</table>
+			<br />
+			Student will be split by age and skill to learn in separate groups.
+			<br />
+			Maximum session size of <b>15</b>.
+		</div>
+	</section>
+	<section class="section has-text-centered">
+		<div class="container">
+			<h1 class="title">
+				Tuition Structure
+			</h1>
+			<div class="columns">
+				<div class="column is-5">
+					<h3 class="title is-4"> Nurture Kids <h3>
+							<table class="table is-hcentered is-striped is-hoverable">
+								<tr>
+									<th>
+										Camp Tuition
+									</th>
+									<td>
+										$165.02
+									</td>
+								</tr>
+								<tr>
+									<th>
+										Kit Cost
+									</th>
+									<td>
+										$84.98
+									</td>
+								</tr>
+								<tr>
+									<th>
+										Lunch (optional)
+									</th>
+									<td>
+										$8 per day of camp
+									</td>
+								</tr>
+								<tr class="is-selected has-background-info">
+									<th>
+										Total Tuition
+									</th>
+									<th>
+										$250.00 or $330.00 with lunch
+									</th>
+								</tr>
+							</table>
+				</div>
+				<div class="column is-5 is-offset-2">
+					<h3 class="title is-4"> Warm Springs Genius Kids <h3>
+							Pricing for the Warm Springs Genius Kids camp is coming soon!
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<section class="section">
+		<a name="register">
+		</a>
+		<div class="container">
+			<h1 class="title has-text-centered">
+				Registration Steps
+			</h1>
+			<h2 class="subtitle has-text-centered">
+				Need help? Contact us at <code>camp@irvingtonrobotics.org</code>
+				or call
+				<a href="tel:5105120863">
+					(510) 512-0863
+				</a>
+				.
+			</h2>
+		</div>
+		<br />
+		<div class="container">
+			<div class="columns">
+				<div class="column is-5">
+					<h4 class="title is-4 has-text-centered">
+						Nurture Kids
+					</h4>
+					<div class="">
+						<h5 class="title is-5">
+							Step 1: Fill Out Student Information Form
+						</h5>
+						<p>
+							Fill out
+							<a
+								href="https://docs.google.com/forms/d/e/1FAIpQLSef-Z8XUCSDe_XGCZ6Lt2ZZui9RDS98ANA7ZL-A7REyLs87WQ/viewform?usp=sf_link">
+								this form</a>.
+						</p>
+					</div>
+					<br />
+					<div class="">
+						<h5 class="title is-5">
+							Step 2: Fill Out Nurture Kids Registration Packet
+						</h5>
+						<p>
+							Fill out
+							<a href="assets/Arduino-Robotics-Registration-Packet-2019.pdf">
+								this registration packet</a>.
+						</p>
+						<p>
+							The completed and signed physical packet may be dropped off at
+							<a href="https://goo.gl/maps/SXCVYp46S9S2">
+								46517 Mission Blvd, Fremont, CA 94539
+							</a>
+							<strong>
+								or
+							</strong>
+							you may email the completed and signed packet to
+							<code>camp@irvingtonrobotics.org</code>.
+						</p>
+					</div>
+					<br />
+					<div class="">
+						<h5 class="title is-5">
+							Step 3: Submit Tuition
+						</h5>
+						<p>
+							Submit a check payable to
+							<strong>
+								VipArya Inc.
+							</strong>
+							to
+							<a href="https://goo.gl/maps/SXCVYp46S9S2">
+								Nurture Kids Warm Springs
+							</a>
+							by July 9th.
+						</p>
+						<p>
+							The camp is $250.00 without lunch and $330.00 with lunch.
+						</p>
+					</div>
+				</div>
+				<div class="column is-5 is-offset-2 has-text-centered">
+					<h4 class="title is-4 has-text-centered">
+						Warm Springs Genius Kids
+					</h4>
+					<p>
+						Registration for the Warm Springs Genius Kids camp is coming soon!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br />
+	<footer class="footer is-branded has-text-white">
+	<div class="content has-text-centered">
+		<h5 class="has-text-white">
+			Student Confidentiality
+		</h5>
+		<p>
+			All information, such as student names, addresses, emails, and etc., collected by Irvington Robotics through
+			this website, its constituent links, or in-person will be kept completely confidential unless written consent by
+			a parent or legal guardian is provided.
+		</p>
+		<p>
+			© 2019 Irvington Robotics Academy.
+		</p>
+	</div>
+</footer>
+
+	<script src="js/index.js">
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112372838-1">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-112372838-1');
+	</script>
+	</hr>
+</body>
+
+</html>
