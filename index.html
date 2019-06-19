@@ -12,27 +12,7 @@
 
 <body>
 	<section class="hero is-medium is-dark is-arduhero">
-		<div class="nav-header">
-			<nav aria-label="main navigation" class="navbar is-transparent is-branded" role="navigation">
-				<div class="navbar-brand">
-					<a class="navbar-item" href="#">
-						<img src="img/logo-white.svg" style="height: 12.09px" />
-					</a>
-				</div>
-				<div class="navbar-menu" id="mainmenu">
-					<div class="navbar-end">
-						<a class="navbar-item" href="#">
-							<strong>
-								Home
-							</strong>
-						</a>
-						<a class="navbar-item" href="#register">
-							Register
-						</a>
-					</div>
-				</div>
-			</nav>
-		</div>
+		<sergey-import src="navbarHeader" />
 		<div class="hero-body">
 			<div class="columns is-desktop is-vcentered">
 				<div class="column">
@@ -240,20 +220,36 @@
 	<section class="section has-text-centered is-branded has-text-white">
 		<div class="container">
 			<h1 class="title has-text-white">
-				About the Instructors
+				Meet the Instructors
 			</h1>
-			<p class="has-text-justified">
-				This camp is taught by VEX Robotics Team captains of the nationally appraised Irvington Robotics Academy. These
-				leaders are skilled in numerous aspects of robotics through the creation of internationally recognized
-				robotics projects,
-				coaching and mentoring younger students through all steps of the robotics design process, and spending countless
-				hours themselves building, modeling, programming, and competing at tournaments with teams from around the
-				world.
-			</p>
+			<sergey-import src="instructorsMessage" />
 			<br>
-			<sergey-import src="instructorsLong">
-			</sergey-import>
-			</section>
+			<div class="columns">
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/ansh.jpg">
+					</p>
+				</div>
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/sandesh.jpg">
+					</p>
+				</div>
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/patrick.jpg">
+					</p>
+				</div>
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/shrijani.jpg">
+					</p>
+				</div>
+			</div>
+			<br />
+			<a class="button is-link is-large is-light" href="/about-instructors.html">
+				Meet the Instructors
+			</a>
 		</div>
 	</section>
 	<section class="section has-text-centered">
@@ -461,7 +457,6 @@
 
 		gtag('config', 'UA-112372838-1');
 	</script>
-	</hr>
 </body>
 
 </html>

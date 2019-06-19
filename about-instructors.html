@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Arduino Robotics Camp by Irvington Robotics
+	</title>
+	<meta property="og:title" content="Arduino Robotics Camp by Irvington Robotics" />
+	<sergey-import src="common" />
+	<link href="css/index.css" rel="stylesheet"></link>
+</head>
+
+<body>
+	<section class="hero is-medium is-dark is-arduhero">
+		<sergey-import src="navbarHeader" />
+		<div class="has-text-centered">
+			<h1 class="title has-text-white is-1">
+				About the Instructors
+			</h1>
+			<h2 class="subtitle is-3">
+				Dreamers. Innovators. Teachers.
+			</h2>
+		</div>
+		<br>
+	</section>
+	<section class="section">
+		<div class="container">
+			<sergey-import src="instructorsMessage" />
+			<br />
+			<div class="columns is-vcentered">
+				<div class="column">
+					<figure class="image">
+						<img src="/img/iowa.jpg" />
+					</figure>
+					<p>
+						Part of the Irvington Robotics Academy using their skills to
+						compete nationally in the VEX Robotics competitions.
+					</p>
+				</div>
+				<div class="column">
+					<figure class="image">
+						<img src="/img/bs-cnc.jpg" />
+					</figure>
+					<p>
+						Several members showing off their miniature Arduino-based CNC
+						drawing tool at the Bay Area Maker Faire in 2018.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section has-text-centered is-branded has-text-white">
+		<div class="container">
+			<br>
+			<sergey-import src="instructorsLong" />
+		</div>
+		<br />
+		<br />
+		<a class="button is-link is-large has-no-textshadow" href="/#register" id="volbtn">
+			<span>
+				Register Now
+			</span>
+		</a>
+		<br />
+		<br />
+		<hr />
+	</section>
+	<sergey-import src="footer" />
+	<script src="js/index.js">
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112372838-1">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-112372838-1');
+	</script>
+</body>
+
+</html>
