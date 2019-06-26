@@ -65,3 +65,12 @@
 .img-enlargeable {
 	cursor: zoom-in;
 }
+
+.is-hover-brighten {
+	opacity: 0.8;
+	transition: opacity 0.3s;
+}
+
+.is-hover-brighten:hover {
+	opacity: 1;
+}
