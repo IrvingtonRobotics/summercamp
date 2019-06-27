@@ -23,6 +23,7 @@ function getButton(camp) {
 }
 
 function chooseCamp(camp) {
+	unchooseCamp();
 	$("body")
 		.removeClass("is-unchosen is-genius is-nurture")
 		.addClass("is-" + camp);
@@ -33,6 +34,7 @@ function chooseCamp(camp) {
 		.addClass(chosenButtonClass)
 		.off("click")
 		.click(unchooseCamp);
+	window.location.hash = "#" + camp;
 }
 
 function unchooseCamp() {
@@ -44,6 +46,9 @@ function unchooseCamp() {
 				chooseCamp(camp)
 			})
 	})
+	if (campNames.includes(window.location.hash.substring(1))) {
+		window.location.hash = "#register";
+	}
 }
 
 unchooseCamp();
