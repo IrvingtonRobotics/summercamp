@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112372838-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-112372838-2');
+	</script>
+	<title>
+		Arduino Robotics Camp by Irvington Robotics
+	</title>
+	<meta property="og:title" content="Arduino Robotics Camp by Irvington Robotics" />
+	<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta property="og:type" content="website" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<link href="css/index.css" rel="stylesheet"></link>
+</head>
+
+<body class="is-unchosen">
+	<section class="hero is-medium is-dark is-arduhero">
+		<div class="nav-header is-dark">
+	<nav aria-label="main navigation" class="navbar is-transparent is-branded" role="navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="/">
+				<img src="img/logo-white.svg" style="height: 12.09px" />
+			</a>
+		</div>
+		<div class="navbar-menu" id="mainmenu">
+			<div class="navbar-end">
+				<a class="navbar-item" href="/">
+					<strong>
+						Home
+					</strong>
+				</a>
+				<a class="navbar-item" href="/#register">
+					Register
+				</a>
+				<a class="navbar-item" href="/about-instructors.html">
+					About
+				</a>
+			</div>
+		</div>
+	</nav>
+</div>
+
+		<div class="hero-body">
+			<div class="columns is-desktop is-vcentered">
+				<div class="column">
+					<div class="has-text-centered">
+						<img class="is-hidden-mobile" src="img/logo-white.svg" width="70%" />
+						<h2 class="subtitle">
+							Build, program, 3D-model, and take home your very own automatic obstacle-avoiding, object-tracking
+							smartcar!
+						</h2>
+						<h2 class="subtitle">
+							<strong>
+								Monday-Friday • Register by July 2th
+							</strong>
+						</h2>
+						<h2 class="subtitle">
+							<strong>
+								7-13 years old • 3:1 student-teacher ratio • Limited spots available
+							</strong>
+						</h2>
+						<br>
+						<h2 class="subtitle">
+							<strong>
+								Nurture Kids Warm Springs • 46517 Mission Blvd, Fremont, CA 94539
+							</strong>
+						</h2>
+						<h2 class="subtitle">
+							<strong>
+								Genius Kids Warm Springs • 46132 Warm Springs Blvd, Fremont, CA 94539
+							</strong>
+						</h2>
+						<a class="button is-link is-large has-no-textshadow" href="#register" id="volbtn">
+							<span>
+								Register Now
+							</span>
+						</a>
+						<br>
+						<br>
+						<div style="max-width: 800px; margin: 0 auto;">
+							<article class="message is-info has-no-textshadow is-relative-root">
+								<div class="message-header">
+									<p>Info: Expansion</p>
+								</div>
+								<div class="message-body">
+									Our Nurture Kids AM session is full. If you were planning on joining our AM session,
+									please contact us at <code>camp@irvingtonrobotics.org</code>, and we will see if we are able to make
+									accommodations.
+									<br/>
+									<br/>
+									Due to growing demand, we are partnering with Warm Springs
+									Genius Kids to host a second summer camp in late July/August.
+									If you are interested in attending our summer camp at Warm Springs
+									Genius Kids,
+									<a href="#genius" onclick="chooseCamp('genius')">
+										follow the registration steps
+									</a>
+									to secure your spot in
+									our camp. Your spot in this camp will not be secured until
+									you finish all registration steps.
+								</div>
+								<div class="corner-icon is-top-right is-hidden-mobile">
+									<img src="img/genius-kids.png" width=100 class="image-pop">
+								</div>
+							</article>
+						</div>
+						<br>
+					</div>
+					<div class="has-text-centered is-hidden-mobile">
+						<br />
+						<img src="img/presentedby_ihs_v2.svg" width="15%" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section has-text-centered has-text-black">
+		<nav class="level">
+			<div class="level-item has-text-centered">
+				<div>
+					<p class="heading">
+						Student-To-Teacher Ratio
+					</p>
+					<p class="title">
+						3:1
+					</p>
+				</div>
+			</div>
+			<div class="level-item has-text-centered">
+				<div>
+					<p class="heading">
+						Max Session Size
+					</p>
+					<p class="title">
+						15
+					</p>
+				</div>
+			</div>
+			<div class="level-item has-text-centered">
+				<div>
+					<p class="heading">
+						Register by
+					</p>
+					<p class="title">
+						July 9th
+					</p>
+				</div>
+			</div>
+		</nav>
+	</section>
+	<section class="section has-text-centered is-branded">
+		<div class="container has-text-white">
+			<div class="columns is-vcentered">
+				<div class="column">
+					<img data-enlargeable src="img/flyer.jpg" width="500" />
+				</div>
+				<div class="column">
+					<h1 class="title has-text-white">
+						Camp Curriculum
+					</h1>
+					<div>
+						<ul>
+							<li>
+								C Programming
+							</li>
+							<li>
+								Circuit Design
+							</li>
+							<li>
+								Arduino Microcontroller Programming
+							</li>
+							<li>
+								Programming Logic and Control Flow
+							</li>
+							<li>
+								Circuitry and Energy Distribution/Calculation
+							</li>
+							<li>
+								External Sensor Integration with Arduino
+							</li>
+							<li>
+								Reading and Drawing Schematic Diagrams
+							</li>
+							<li>
+								Mechanical and Structural Design
+							</li>
+							<li>
+								3D Design with Autodesk and Tinkercad Software
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section has-text-centered is-branded">
+		<div class="container has-text-white">
+			<h1 class="title has-text-white">
+				Equipment Used
+			</h1>
+			<img data-enlargeable src="img/equipment.jpg" width="300">
+			<br><br>
+			<div class="columns">
+				<div class="column">
+					<h2 class="subtitle">
+						<strong class="has-text-white">Robot Chassis</strong>
+					</h2>
+					<ul>
+						<li>2 x Gear Motor (1:48 torque gear ratio)</li>
+						<li>2 x High-quality Car Wheel</li>
+						<li>1 x Smart Car Chassis</li>
+						<li>2 x Pan-Tilt Boards</li>
+						<li>4 x Motor Fixing Bracket</li>
+						<li>2 x 14500 Lithium-Ion Batteries</li>
+						<li>1 x Hardware Set (screws, etc.)</li>
+						<li>1 x SG90 Servo</li>
+						<li>1 x Universal Wheel</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 class="subtitle">
+						<strong class="has-text-white">Microcontroller/Sensor Equipment</strong>
+					</h2>
+					<ul>
+						<li>1 x Arduino Uno R3</li>
+						<li>3 x 15 Pixel LED Board</li>
+						<li>1 x Ultrasonic Sensor (HC-SR04 Ultrasonic Sensor)</li>
+						<li>1 x Flame Sensor</li>
+						<li>2 x Photoresistor & Thermistor</li>
+						<li>3 x Potentiometer</li>
+						<li>1 x LCD1602</li>
+						<li>1 x Mini Remote Control</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 class="subtitle">
+						<strong class="has-text-white">Circuit Equipment</strong>
+					</h2>
+					<ul>
+						<li>2 x Active Buzzer</li>
+						<li>20 x Resistors</li>
+						<li>4 x Buttons</li>
+						<li>2 x Mini Breadboards</li>
+						<li>1 x Battery Box</li>
+						<li>1 x Charger</li>
+						<li>1 x Mini Component Box</li>
+						<li>1 x 830-Hole Large Breadboard</li>
+						<li>2 X AA Batteries</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section has-text-centered is-branded has-text-white">
+		<div class="container">
+			<h1 class="title has-text-white">
+				Meet the Instructors
+			</h1>
+			<p class="has-text-justified">
+	This camp is taught by VEX Robotics Team captains of the nationally appraised Irvington Robotics Academy. These
+	leaders are skilled in numerous aspects of robotics through the creation of internationally recognized
+	robotics projects,
+	coaching and mentoring younger students through all steps of the robotics design process, and spending countless
+	hours themselves building, modeling, programming, and competing at tournaments with teams from around the
+	world.
+</p>
+
+			<br>
+			<a class="columns is-hover-brighten" href="/about-instructors.html">
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/ansh.jpg">
+					</p>
+				</div>
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/sandesh.jpg">
+					</p>
+				</div>
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/patrick.jpg">
+					</p>
+				</div>
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/shrijani.jpg">
+					</p>
+				</div>
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/divyank.jpg">
+					</p>
+				</div>
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/kanishk.jpg">
+					</p>
+				</div>
+				<div class="column">
+					<p class="image is-128x128 is-hcentered">
+						<img class="is-rounded" src="img/bios/yeiji.jpg">
+					</p>
+				</div>
+			</a>
+			<br />
+			<a class="button is-link is-large is-light" href="/about-instructors.html">
+				Meet the Instructors
+			</a>
+		</div>
+	</section>
+	<a name="register">
+	</a>
+	<a name="details">
+	</a>
+	<a name="genius">
+	</a>
+	<a name="nurture">
+	</a>
+	<section class="section has-text-centered">
+		<h1 class="title">
+			Choose a Camp Location
+		</h1>
+		<p>
+			We offer two camps: one at Nurture Kids and one at Warm Springs Genius Kids.
+			Which would you like to sign up for?
+		</p>
+		<br>
+		<div id="choose-buttons" class="buttons has-addons is-centered">
+			<button id="choose-nurture" class="button is-size-5"> Nurture Kids </button>
+			<button id="choose-genius" class="button is-size-5"> Genius Kids </button>
+		</div>
+	</section>
+	<section class="section has-text-centered is-different">
+		<div class="container">
+			<h1 class="title">
+				Schedule
+			</h1>
+			<h2 class="subtitle">
+				Email <code>camp@irvingtonrobotics.org</code> if you have any questions.
+			</h2>
+			<div class="columns">
+				<div class="column"></div>
+				<div class="column is-5 nurture">
+					<h3 class="title is-4"> Nurture Kids <h3>
+					<p class="subtitle is-5">
+						Dates: July 15 to July 26
+					</p>
+					<table class="table is-hcentered is-striped is-hoverable is-bordered">
+						<tr>
+							<th> Session 1 </th>
+							<th> Session 2 </th>
+						</tr>
+						<tr>
+							<td class="is-danger">	9:00AM to 1:00PM	</td>
+							<td class="is-warning">	2:00PM to 5:00PM	</td>
+						</tr>
+					</table>
+				</div>
+				<div class="column is-5 genius">
+					<h3 class="title is-4"> Warm Springs Genius Kids <h3>
+					<table class="table is-hcentered is-striped is-hoverable is-bordered">
+						<tr>
+							<th> Week 1 </th>
+							<th> Week 2 </th>
+							<th> Both weeks </th>
+						</tr>
+						<tr>
+							<td class="is-warning">
+								July 8 to July 12
+								<br />
+								2:00PM to 5:00PM
+							</td>
+							<td class="is-warning">
+								July 15 to July 19
+								<br />
+								2:00PM to 5:00PM
+							</td>
+							<td class="is-warning">
+								July 8 to July 19
+								<br/>
+								2:00PM to 5:00PM
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="column"></div>
+			</div>
+			<table class="table is-hcentered is-striped is-bordered">
+				<tr>
+					<th> Key: </th>
+					<td class="is-success"> Empty </td>
+					<td class="is-warning"> Filling up </td>
+					<td class="is-danger"> Full </td>
+				</tr>
+			</table>
+			<br />
+			<p>
+				Student will be split by age and skill to learn in separate groups.
+			</p>
+			<p>
+				Maximum session size of <b>15</b>.
+			</p>
+			<p>
+				You may either sign up for one week or two weeks.
+				<br>
+				One week: July 8 to July 12 or July 15 to July 19 (5 days)
+				<br>
+				Two weeks: July 8 to July 19 (10 days)
+			</p>
+		</div>
+	</section>
+	<section class="section has-text-centered is-different">
+		<div class="container">
+			<h1 class="title">
+				Tuition Structure
+			</h1>
+			<div class="columns">
+				<div class="column"></div>
+				<div class="column is-5 nurture">
+					<h3 class="title is-4"> Nurture Kids <h3>
+					<table class="table is-hcentered is-striped is-hoverable">
+						<tr>
+							<th>
+								Camp Tuition
+							</th>
+							<td>
+								$165.02
+							</td>
+						</tr>
+						<tr>
+							<th>
+								Kit Cost
+							</th>
+							<td>
+								$84.98
+							</td>
+						</tr>
+						<tr class="is-selected has-background-info">
+							<th>
+								Total Tuition
+							</th>
+							<th>
+								$250.00
+							</th>
+						</tr>
+						<tr>
+							<th>
+								Lunch (optional)
+							</th>
+							<td>
+								$8 per day of camp
+							</td>
+						</tr>
+						<tr class="is-selected has-background-info">
+							<th>
+								Total Tuition with Lunch
+							</th>
+							<th>
+								$330.00
+							</th>
+						</tr>
+					</table>
+				</div>
+				<div class="column is-5 genius">
+					<h3 class="title is-4"> Warm Springs Genius Kids <h3>
+					<table class="table is-hcentered is-striped is-hoverable">
+						<tr>
+							<th>	</th>
+							<th> Two weeks </th>
+							<th> One week </th>
+						</tr>
+						<tr>
+							<th>
+								Camp Tuition
+							</th>
+							<td>
+								$125.02
+							</td>
+							<td>
+								$62.51
+							</td>
+						</tr>
+						<tr>
+							<th>
+								Kit Cost
+							</th>
+							<td>
+								$84.98
+							</td>
+							<td>
+								$84.98
+							</td>
+						</tr>
+						<tr class="is-selected has-background-info">
+							<th>
+								Total Tuition
+							</th>
+							<th>
+								$210.00
+							</th>
+							<th>
+								$147.49
+							</th>
+						</tr>
+					</table>
+				</div>
+				<div class="column"></div>
+			</div>
+		</div>
+	</section>
+	<section class="section is-different">
+		<div class="container">
+			<h1 class="title has-text-centered">
+				Registration Steps
+			</h1>
+			<h2 class="subtitle has-text-centered">
+				Need help? Contact us at <code>camp@irvingtonrobotics.org</code>
+				or call
+				<a href="tel:5105120863">
+					(510) 512-0863
+				</a>
+				.
+			</h2>
+		</div>
+		<br />
+		<div class="container">
+			<div class="columns">
+				<div class="column"></div>
+				<div class="column is-5 nurture">
+					<h4 class="title is-4 has-text-centered">
+						Nurture Kids
+					</h4>
+					<div class="">
+						<h5 class="title is-5">
+							Step 1: Fill Out Student Information Form
+						</h5>
+						<p>
+							Fill out
+							<a
+								href="https://docs.google.com/forms/d/e/1FAIpQLSef-Z8XUCSDe_XGCZ6Lt2ZZui9RDS98ANA7ZL-A7REyLs87WQ/viewform">
+								this form</a>.
+						</p>
+					</div>
+					<br />
+					<div class="">
+						<h5 class="title is-5">
+							Step 2: Fill Out Nurture Kids Registration Packet
+						</h5>
+						<p>
+							Fill out
+							<a href="assets/Arduino-Robotics-Registration-Packet-2019-Nurture.pdf">
+								this registration packet</a>.
+						</p>
+						<p>
+							The completed and signed physical packet may be dropped off at
+							<a href="https://goo.gl/maps/SXCVYp46S9S2">
+								46517 Mission Blvd, Fremont, CA 94539
+							</a>
+							<strong>
+								or
+							</strong>
+							you may email the completed and signed packet to
+							<code>camp@irvingtonrobotics.org</code>.
+						</p>
+					</div>
+					<br />
+					<div class="">
+						<h5 class="title is-5">
+							Step 3: Submit Tuition
+						</h5>
+						<p>
+							Submit a check payable to
+							<strong>
+								VipArya Inc.
+							</strong>
+							to
+							<a href="https://goo.gl/maps/SXCVYp46S9S2">
+								Nurture Kids Warm Springs
+							</a>
+							by July 2nd.
+						</p>
+						<p>
+							The camp is $250.00 without lunch or $330.00 with lunch.
+						</p>
+					</div>
+				</div>
+				<div class="column is-5 genius">
+					<h4 class="title is-4 has-text-centered">
+						Warm Springs Genius Kids
+					</h4>
+					<div class="">
+						<h5 class="title is-5">
+							Step 1: Fill Out Student Information Form
+						</h5>
+						<p>
+							Fill out
+							<a
+								href="https://docs.google.com/forms/d/e/1FAIpQLSevvIDLZiEG6yOQWlgxTsdbMF5u-ExvpoK2LR0JVfCMr1NM8A/viewform">
+								this form</a>.
+						</p>
+					</div>
+					<br />
+					<div class="">
+						<h5 class="title is-5">
+							Step 2: Fill Out Genius Kids Registration Packet
+						</h5>
+						<p>
+							If you plan to register for the one week camp, fill out
+							<a href="assets/Arduino-Robotics-Registration-Packet-2019-Genius-One-Week.pdf">
+								the one week registration packet
+							</a>.
+						</p>
+						<p>
+							If you plan to register for the two week camp, fill out
+							<a href="assets/Arduino-Robotics-Registration-Packet-2019-Genius-Two-Week.pdf">
+								the two week registration packet
+							</a>.
+						</p>
+						<p>
+							The completed and signed physical packet may be dropped off at
+							<a href="https://goo.gl/maps/5R3cbwLVVvAr4WQz6">
+								46132 Warm Springs Blvd, Fremont, CA 94539
+							</a>
+							<strong>
+								or
+							</strong>
+							you may email the completed and signed packet to
+							<code>camp@irvingtonrobotics.org</code>.
+						</p>
+					</div>
+					<br />
+					<div class="">
+						<h5 class="title is-5">
+							Step 3: Submit Tuition
+						</h5>
+						<p>
+							Submit a check payable to
+							<strong>
+								Geoffrey Zhang
+							</strong>
+							to
+							<a href="https://goo.gl/maps/5R3cbwLVVvAr4WQz6">
+								Genius Kids Warm Springs
+							</a>
+							or PayPal to
+							<a href="//paypal.me/irvingtonrobotics">
+								IrvingtonRobotics
+							</a>
+							by July 2nd.
+						</p>
+						<p>
+							The camp is $147.49 for one week or $210.00 for two weeks.
+						</p>
+						<p>
+							Late registration (between July 2nd and July 5th 11:59 pm) will
+							incur a $15 fee to pay for faster shipping on kits.
+						</p>
+					</div>
+				</div>
+				<div class="column"></div>
+			</div>
+		</div>
+	</section>
+	<br />
+	<footer class="footer is-branded has-text-white">
+	<div class="content has-text-centered">
+		<h5 class="has-text-white">
+			Student Confidentiality
+		</h5>
+		<p>
+			All information, such as student names, addresses, emails, and etc., collected by Irvington Robotics through
+			this website, its constituent links, or in-person will be kept completely confidential unless written consent by
+			a parent or legal guardian is provided.
+		</p>
+		<p>
+			© 2019 Irvington Robotics Academy.
+		</p>
+	</div>
+</footer>
+
+	<script src="js/index.js">
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-112372838-1">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-112372838-1');
+	</script>
+</body>
+
+</html>

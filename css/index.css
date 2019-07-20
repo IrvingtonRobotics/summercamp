@@ -65,3 +65,28 @@
 .img-enlargeable {
 	cursor: zoom-in;
 }
+
+.is-hover-brighten {
+	opacity: 0.8;
+	transition: opacity 0.3s;
+}
+
+.is-hover-brighten:hover {
+	opacity: 1;
+}
+
+.is-unchosen .is-different {
+	display: none;
+}
+
+.is-unchosen .nurture, .is-genius .nurture {
+	display: none;
+}
+
+.is-unchosen .genius, .is-nurture .genius {
+	display: none;
+}
+
+p + p {
+	margin-top: 0.8em;
+}
